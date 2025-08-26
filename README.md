@@ -59,7 +59,7 @@ The application allows users and developers to choose a model according to their
 - **Sdg Optimizer:** Stable training for MobileNetV3-large
 - **Scheduler:** ReduceLROnPlateau helps refine learning toward convergence. 
 
----<img width="1808" height="902" alt="analysis" src="https://github.com/user-attachments/assets/b31120e4-9e6e-4172-8e99-06f50ad53a63" />
+![Demo]([https://github.com/KaanK026/NeuroSigny-AI/assets/123456789/abcdef123456](https://private-user-images.githubusercontent.com/120989589/482273683-b31120e4-9e6e-4172-8e99-06f50ad53a63.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTYyMzY0MzEsIm5iZiI6MTc1NjIzNjEzMSwicGF0aCI6Ii8xMjA5ODk1ODkvNDgyMjczNjgzLWIzMTEyMGU0LTllNmUtNDE3Mi04ZTk5LTA2ZjUwYWQ1M2E2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgyNlQxOTIyMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTM1NDZkMTFkMTc4ZjhhODc2Y2VkZDA4N2E5NThiMzQ2MjAyZWU5YjMwNjJhYjkyMjk1ZGY5MDJjNDM0MzhlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rQGm6DR4k_NUkrszqxN_RyLc8GOOumFHDgmJfnxq_ZM))
 
 
 
