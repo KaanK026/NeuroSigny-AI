@@ -30,8 +30,6 @@ dist/
 .DS_Store
 .vscode/
 
-README.md
-
 package-lock.json
 
 tsconfig.json
