@@ -1,4 +1,4 @@
-# NeuroSigny-AI 🚀
+# NeuroSigny-AI 
 **Real-Time ASL to English Translation for Virtual Meetings**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
@@ -50,6 +50,8 @@ The application allows users and developers to choose a model according to their
 - Designed for **experimentation and flexibility**.  
 - Allows developers to **tweak the architecture** (number of layers, filters, etc.) to suit custom datasets.  
 - Serves as a **lightweight alternative** for quick prototyping or smaller-scale tasks.
+
+![Demo](https://github.com/KaanK026/NeuroSigny-AI/issues/1#issue-3356833308)
 
 ### Hyperparameters and Tuning
 
@@ -135,7 +137,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ---
 
 ## 📬 Contact
-**Kaan** – [your-email@example.com](mailto:your-email@example.com)  
+**Kaan** – [kaankocaer026@gmail.com](mailto:your-email@example.com)  
 GitHub: [https://github.com/KaanK026](https://github.com/KaanK026)  
 
 ---
