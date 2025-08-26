@@ -31,7 +31,7 @@ The goal of NeuroSigny-AI is to **enable smooth and natural conversations**, mak
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ### Model Choices
 The application allows users and developers to choose a model according to their needs. Each model has been chosen for a particular reason and analyzed for its properties.
@@ -53,12 +53,9 @@ The application allows users and developers to choose a model according to their
 
 ### Hyperparameters and Tuning
 
-## Mixup & CutMix
-- Encourages models to learn more generalized features rather than overfitting to the training set.
-
-## Optimizers & Learning Rate Scheduling
-- **ResNet18 & Custom CNN:** Adam optimizer for fast convergence
-- **MobileNetV3-large:** SGD optimizer for stable training
+- **Mixup & CutMix** Encourages models to learn more generalized features rather than overfitting to the training set.
+- **Adam Optimizer:** Fast convergence for ResNet18 & Custom CNN
+- **Sdg Optimizer:** Stable training for MobileNetV3-large
 - **Scheduler:** ReduceLROnPlateau helps refine learning toward convergence. 
 
 ---
