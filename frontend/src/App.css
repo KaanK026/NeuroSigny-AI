@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Menu Bar Styles */
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #101d2a;
+  color: rgba(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  z-index: 9999;;
+}
+
+.logo {
+  position: absolute;
+  left:30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.menu-bar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 15px;
+  transition: color 0.3s;
+}
+
+.menu-bar button:hover {
+  color: #007bff;
+}
+
+/* Sections Styles */
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* Space for the fixed menu bar */
+}
+
+/* Get Started Section */
+.get-started-section {
+  background-image: url('../src/assets/images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Model container */
+.model-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 30px;
+  right: 50px;
+}
+
+.model-selection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.model-dropdown {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.set-model-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.set-model-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add space between buttons */
+.model-selection button {
+  margin-left: 5px;
+  min-width: 120px;
+}
+
+.stop-model-button {
+  background-color: #dc3545; /* red for stop */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.stop-model-button:hover {
+  background-color: #a71d2a;
+}
+
+
+.status-area p {
+  font-size: 1.2em;
+  word-break: break-word;
+}
+
+/* Analysis Section */
+.analysis-section {
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column; /* stack heading + images vertically */
+  align-items: center;    /* center horizontally */
+  padding-top: 80px;      /* space for fixed menu bar */
+  padding-bottom: 40px;
+  text-align: center;
+  
+}
+
+
+/* Information Section */
+.info-section {
+  background-color: #eee;
+  color: #333;
+
+}
+
+.analysis-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  justify-items: center; /* center items in each cell */
+}
+
+/* Optional: make responsive */
+@media (max-width: 900px) {
+  .analysis-images {
+    grid-template-columns: repeat(2, 1fr); /* 2 per row on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .analysis-images {
+    grid-template-columns: 1fr; /* 1 per row on mobile */
+  }
+}
+
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 480px;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.image-card p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+}

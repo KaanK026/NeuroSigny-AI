@@ -1,0 +1,41 @@
+# Ignore Python virtual environment
+
+venv/
+datas/
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+.idea/
+
+.env/
+
+model_files/
+
+camera_log.txt
+
+.DS_Store
+
+backend/src/model_files/
+
+# Node modules
+node_modules/
+
+# TypeScript build folder
+dist/
+
+# Environment files
+.env
+
+# OS / Editor files
+.DS_Store
+.vscode/
+
+README.md
+
+package-lock.json
+
+tsconfig.json
+
+robots.txt
+
+manifest.json
