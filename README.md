@@ -61,10 +61,10 @@ The application allows users and developers to choose a model according to their
 
 
 <img width="1808" height="1202" alt="analysis" src="https://github.com/user-attachments/assets/1b85bddd-a79e-4fe4-b61d-cfd2ca9b1636" />
+Image can be seen in full resolution on clicking.
 
 
-
-## Demonstration
+## 📊Demonstration
 
 
 
