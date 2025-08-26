@@ -80,8 +80,9 @@ The application allows users and developers to choose a model according to their
 5. **Frontend Integration**: React-based interface for video streaming.
 
 ### Tech Stack
-- **Backend**: Python, TensorFlow, OpenCV
-- **Frontend**: TypeScript, React
+- **Backend**: Python, Pytorch, Scikit-learn, OpenCV, Mediapipe, FastAPI
+- **Frontend**: TypeScript, React, CSS, HTML
+- **Cloud**: AWS S3
 
 
 ---
@@ -104,6 +105,7 @@ The application allows users and developers to choose a model according to their
   - `package.json` 
 - `.gitignore`,`README.md`
 
+---
 
 ## 🛠️ Installation & Quick Start
 
@@ -114,11 +116,11 @@ cd NeuroSigny-AI
 # Backend
 cd backend
 pip install -r requirements.txt
-# Frontend
+## Frontend
 cd ../frontend
 npm install
 npm start
-
+```
 
 ---
 
