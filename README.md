@@ -51,7 +51,6 @@ The application allows users and developers to choose a model according to their
 - Allows developers to **tweak the architecture** (number of layers, filters, etc.) to suit custom datasets.  
 - Serves as a **lightweight alternative** for quick prototyping or smaller-scale tasks.
 
-![Demo](https://github.com/KaanK026/NeuroSigny-AI/issues/1#issue-3356833308)
 
 ### Hyperparameters and Tuning
 
@@ -60,7 +59,8 @@ The application allows users and developers to choose a model according to their
 - **Sdg Optimizer:** Stable training for MobileNetV3-large
 - **Scheduler:** ReduceLROnPlateau helps refine learning toward convergence. 
 
----
+---<img width="1808" height="902" alt="analysis" src="https://github.com/user-attachments/assets/b31120e4-9e6e-4172-8e99-06f50ad53a63" />
+
 
 
 ## Demonstration
