@@ -65,8 +65,11 @@ Image can be seen in full resolution on clicking.
 
 
 ## 📊Demonstration
+###Backend
+![backend_git-ezgif com-optimize (1)](https://github.com/user-attachments/assets/745818d5-756e-4c18-83bd-27685eb06559)
 
-
+###Frontend
+![frontend_git](https://github.com/user-attachments/assets/cd6e6640-ad2f-49ff-83af-00df7ae683c9)
 
 
 
