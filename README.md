@@ -80,7 +80,7 @@ Image can be seen in full resolution on clicking.
 2. **Preprocessing**: Hand keypoints extraction using OpenCV and Mediapipe.
 3. **ML Model**: Custom-trained and Pre-trained Pytorch models to recognize ASL gestures.
 4. **Postprocessing**: Converts gestures to text and overlays in the video call in real-time.
-5. **Frontend Integration**: React-based interface for video streaming.
+5. **Frontend Integration**: React-based interface
 
 ### Tech Stack
 - **Backend**: Python, Pytorch, Scikit-learn, OpenCV, Mediapipe, FastAPI
@@ -89,6 +89,9 @@ Image can be seen in full resolution on clicking.
 
 
 ---
+
+##  Limitations
+The project currently does not cover all ASL expressions. Instead, it is based on constructing words by combining individual letters in ASL. 
 
 ## 🗂️ Project Structure
 - `backend/` – ML models & Vision logic
